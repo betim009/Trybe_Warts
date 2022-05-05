@@ -4,13 +4,13 @@
 
 
 
-
+//Requisito 3
 function verificandoInputs(){
-    let getEmail = document.querySelector('#email').value;
-    let getPassword = document.querySelector('#password').value;
     const getButton = document.querySelector('#button-submit');
-
-    getButton.addEventListener('click', function(event){
+    
+    getButton.addEventListener('click', function(){
+        let getEmail = document.querySelector('#email').value;
+        let getPassword = document.querySelector('#password').value;
         if(getEmail === 'tryber@teste.com' && getPassword === '123456'){
             alert('Olá, Tryber!');
         } else{
@@ -19,6 +19,3 @@ function verificandoInputs(){
     })
 }
 verificandoInputs();
-
-
-
