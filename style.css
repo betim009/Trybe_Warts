@@ -1,8 +1,14 @@
 *{
     margin: 0 auto;
+    padding: 0;
 }
 .header{
     display: flex;
     background-color: rgb(50, 167, 145);
-    height: 10px;
+    height: 50px;
+}
+
+form.trybewarts-login {
+    display: flex;
+    align-content: space-between;
 }
