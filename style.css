@@ -3,10 +3,11 @@
     padding: 0;
 }
 
-.header{
+header{
     display: flex;
     background-color: rgb(50, 167, 145);
     height: 50px;
+    justify-content: space-between;
 }
 
 form.trybewarts-login {
@@ -16,4 +17,12 @@ form.trybewarts-login {
 
 #trybewarts-header-title{
     text-align: center;
+}
+
+main form {
+    display: flex;
+}
+
+#evaluation-form {
+    flex-direction: column;
 }
