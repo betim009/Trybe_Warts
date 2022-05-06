@@ -37,7 +37,6 @@ form {
   display: flex;
 }
 
-
 #evaluation-form {
   flex-direction: column;
   width: 675px;
@@ -57,26 +56,25 @@ form {
   display: flex;
 }
 
-#container{
-    display: flex;
-    flex-wrap: wrap;
-    border: blue solid 2px;
-    max-width: 100%;
-    align-items: center;
-    width: 80%;
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  border: blue solid 2px;
+  max-width: 100%;
+  align-items: center;
+  width: 80%;
 }
 
-#label-family{
-    border: 1px green solid;
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-}
-#label-content{
-    border: 1px green solid;
-    display: flex;
-    flex-direction: column;
-    width: 50%;
+#label-family {
+  border: 1px green solid;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
 
-
+#label-content {
+  border: 1px green solid;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
