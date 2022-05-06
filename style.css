@@ -34,7 +34,6 @@ main, form {
 
 #trybewarts-forms-logo {
     display: flex;
-    justify-content: flex-end;
     height: 500px;
     border: 1px solid red;
 }
