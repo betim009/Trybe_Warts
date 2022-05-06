@@ -9,7 +9,6 @@ header{
     background-color: rgb(50, 167, 145);
     height: 42px;
     justify-content: space-between;
-    justify-items: baseline;
 }
 
 .trybewarts-login {
@@ -21,19 +20,43 @@ header{
     height: 20px;
 }
 
-main, form {
+main{
     display: flex;
+    background-color: azure;
+    padding: 10px;
+    border: red solid 2px;
+    justify-content: center;
 }
 
+
 #evaluation-form {
+    display: flex;
     flex-direction: column;
     width: 675px;
-    align-content: space-between;
-    border: 1px solid black;
+    /* align-content: space-between; */
 }
 
 #trybewarts-forms-logo {
-    display: flex;
     height: 500px;
-    border: 1px solid red;
 }
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    border: blue solid 2px;
+    max-width: 100%;
+    align-items: center;
+    width: 80%;
+}
+
+.c-left{
+    flex: 50%;
+    border: solid black 1px;
+}
+.c-right{
+    flex: 50%;
+    border: 1px red solid;
+}
+
+
+
