@@ -53,27 +53,31 @@
             </div>
 
             <label id="label-family">Qual sua família?</label>
-                <label for="frontend-radio">Frontend</label>
-                    <input type="radio" name="family" id="frontend-radio" value="Frontend">
-                <label for="backend-radio">Backend</label>
-                    <input type="radio" name="family" id="backend-radio" value="Backend">
-                <label for="fullstack-radio">FullStack</label>
-                    <input type="radio" name="family" id="fullstack-radio" value="FullStack">
+                <div class="side-by-side">
+                    <label for="frontend-radio">Frontend</label>
+                        <input type="radio" name="family" id="frontend-radio" value="Frontend">
+                    <label for="backend-radio">Backend</label>
+                        <input type="radio" name="family" id="backend-radio" value="Backend">
+                    <label for="fullstack-radio">FullStack</label>
+                        <input type="radio" name="family" id="fullstack-radio" value="FullStack">
+                </div>
 
             <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
-                <label for="hofs-checkbox">HoFs</label>
-                    <input type="checkbox" id="hofs-checkbox" value="HoFs">
-                <label for="jest-checkbox">Jest</label>
-                    <input type="checkbox" id="jest-checkbox" value="Jest">
-                <label for="promises-checkbox">Promises</label>                
-                    <input type="checkbox" id="promises-checkbox" value="Promises">
-                <label for="react-checkbox">React</label>
-                    <input type="checkbox" id="react-checkbox" value="React">
-                <label for="sql-checkbox">SQL</label>
-                    <input type="checkbox" id="sql-checkbox" value="SQL">
-                <label for="python-checkbox">Python</label>
-                    <input type="checkbox" id="python-checkbox" value="Python">
-
+                <div class="side-by-side">
+                    <label for="hofs-checkbox">HoFs</label>
+                        <input type="checkbox" id="hofs-checkbox" value="HoFs">
+                    <label for="jest-checkbox">Jest</label>
+                        <input type="checkbox" id="jest-checkbox" value="Jest">
+                    <label for="promises-checkbox">Promises</label>                
+                        <input type="checkbox" id="promises-checkbox" value="Promises">
+                    <label for="react-checkbox">React</label>
+                        <input type="checkbox" id="react-checkbox" value="React">
+                    <label for="sql-checkbox">SQL</label>
+                        <input type="checkbox" id="sql-checkbox" value="SQL">
+                    <label for="python-checkbox">Python</label>
+                        <input type="checkbox" id="python-checkbox" value="Python">
+                </div>
+                    
             <label for="" id="label-rate">Como você avalia a Trybewarts?
                 <input type="radio" name="rate" value="1">1
                 <input type="radio" name="rate" value="2">2
@@ -87,14 +91,14 @@
                 <input type="radio" name="rate" value="10">10
             </label>
 
-            <label for="comment" class="textarea">Deixe seu comentário:
+            <label for="comment" class="textarea">Deixe seu comentário:</label>
                 <textarea name="comment" id="comment" rows="5" maxlength="500"></textarea>
-            </label>
-
-            <label id="label-infos">Você concorda com o uso das informações acima?
-                <input type="checkbox" name="agreement" id="agreement">
-            </label>
-
+            
+            <label id="label-infos">Você concorda com o uso das informações acima?</label>
+                <div class="side-by-side">
+                    <label for="agreement">Estou de acordo e confirmo!</label>
+                        <input type="checkbox" name="agreement" id="agreement">    
+                </div>
             <button type="submit" id="submit-btn"">Enviar</button>
         </form>
         <img src="images/trybewarts-colored.svg" alt="logo formulário" id="trybewarts-forms-logo">

@@ -31,7 +31,6 @@ main {
 
   /* padding-left: 2%; */
   justify-content: space-evenly;
-  border: 10px solid red;
 }
 
 form {
@@ -44,14 +43,12 @@ form {
 
   /* align-content: space-between; */
   justify-content: center;
-  border: 2px solid blue;
   padding-left: 5%;
 }
 
 #trybewarts-forms-logo {
   display: flex;
   height: 500px;
-  border: 2px solid green;
 }
 
 .side-by-side {
@@ -68,15 +65,18 @@ form {
 }
 
 #label-family {
-  border: 1px green solid;
   display: flex;
   flex-direction: column;
   width: 50%;
 }
 
 #label-content {
-  border: 1px green solid;
   display: flex;
   flex-direction: column;
   width: 50%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
 }
