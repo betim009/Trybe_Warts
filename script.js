@@ -23,3 +23,20 @@ function contadorCaractere() {
   });
 }
 contadorCaractere();
+
+function desactiveSubmit() {
+  const agreement = document.querySelector('#agreement');
+  const submit = document.querySelector('#submit-btn');
+  submit.disabled = true;
+
+  agreement.addEventListener('change', () => {
+    if (submit.disabled === true) {
+      submit.disabled = false;
+    } else {
+      submit.disabled = true;
+    }
+  });
+
+  // agreement.addEventListener('change', () => (submit.disabled === true ? submit.disabled = false : submit.disabled = true));
+}
+desactiveSubmit();
