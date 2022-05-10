@@ -52,49 +52,44 @@
                 </label>
             </div>
 
-            <label id="label-family">
-                <p>Qual sua família?</p>
-            </label>
-            <div class="side-by-side padding-inline">
+            <div class="side-by-side">
+                <div class="flex-column">
+                <label id="label-family">Qual sua família?</label>
                 <label for="frontend-radio">
-                    <input type="radio" name="family" id="frontend-radio" value="Frontend"> Frontend
-                </label>
-                <label for="backend-radio">
-                    <input type="radio" name="family" id="backend-radio" value="Backend"> Backend
-                </label>
-                <label for="fullstack-radio">
-                    <input type="radio" name="family" id="fullstack-radio" value="FullStack"> FullStack
-                </label>
+                        <input type="radio" name="family" id="frontend-radio" value="Frontend"> Frontend
+                    </label>
+                    <label for="backend-radio">
+                        <input type="radio" name="family" id="backend-radio" value="Backend"> Backend
+                    </label>
+                    <label for="fullstack-radio">
+                        <input type="radio" name="family" id="fullstack-radio" value="FullStack"> FullStack
+                    </label>
+                </div>
+                
+                <div class="flex-column">
+                <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+                    <label for="hofs-checkbox">
+                        <input type="checkbox" id="hofs-checkbox" value="HoFs"> HoFs
+                    </label>
+                    <label for="jest-checkbox">
+                        <input type="checkbox" id="jest-checkbox" value="Jest"> Jest
+                    </label>
+                    <label for="promises-checkbox">     
+                        <input type="checkbox" id="promises-checkbox" value="Promises"> Promises  
+                    </label>
+                    <label for="react-checkbox">
+                        <input type="checkbox" id="react-checkbox" value="React"> React
+                    </label>
+                    <label for="sql-checkbox">
+                        <input type="checkbox" id="sql-checkbox" value="SQL"> SQL
+                    </label>
+                    <label for="python-checkbox">
+                        <input type="checkbox" id="python-checkbox" value="Python"> Python
+                    </label>
+                </div>
             </div>
 
-            
-            <label id="label-content">
-                <p>Qual conteúdo você está com mais vontade de aprender?</p>
-            </label>
-            <div class="side-by-side padding-inline">
-                <label for="hofs-checkbox">
-                    <input type="checkbox" id="hofs-checkbox" value="HoFs"> HoFs
-                </label>
-                <label for="jest-checkbox">
-                    <input type="checkbox" id="jest-checkbox" value="Jest"> Jest
-                </label>
-                <label for="promises-checkbox">     
-                    <input type="checkbox" id="promises-checkbox" value="Promises"> Promises  
-                </label>
-                <label for="react-checkbox">
-                    <input type="checkbox" id="react-checkbox" value="React"> React
-                </label>
-                <label for="sql-checkbox">
-                    <input type="checkbox" id="sql-checkbox" value="SQL"> SQL
-                </label>
-                <label for="python-checkbox">
-                    <input type="checkbox" id="python-checkbox" value="Python"> Python
-                </label>
-            </div>
-
-            <label for="" id="label-rate">
-                <p>Como você avalia a Trybewarts?</p>
-            </label>
+            <label for="" id="label-rate">Como você avalia a Trybewarts?</label>
             <div class="side-by-side padding-inline">
                 <label for="rate-1">
                     <input type="radio" name="rate" id="rate-1" value="1"> 1
@@ -135,7 +130,7 @@
                     <label id="label-infos">
                         <p>Você concorda com o uso das informações acima?</p>
                     </label>
-                    <label for="agreement">
+                    <label for="agreement" class="padding-inline">
                         <input type="checkbox" name="agreement" id="agreement"> Estou de acordo e confirmo!
                     </label>
                 </div>
