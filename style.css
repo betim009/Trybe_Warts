@@ -84,3 +84,15 @@ footer {
 #counter {
   padding-bottom: 20px;
 }
+
+input:enabled {
+  background: gray;
+}
+
+input::placeholder {
+  color: white;
+}
+
+input:disabled {
+  background: #dddddd;
+}
