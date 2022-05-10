@@ -80,3 +80,7 @@ footer {
   display: flex;
   flex-direction: column;
 }
+
+#counter {
+  padding-bottom: 20px;
+}

@@ -12,18 +12,14 @@ function verificandoInputs() {
 }
 verificandoInputs();
 
-
 function contadorCaractere() {
   const textArea = document.querySelector('#textarea');
   const count = document.querySelector('#counter');
   let tamanhoTextArea = textArea.value.length;
 
-
-
-  textArea.addEventListener ('input', () =>{
-  tamanhoTextArea = textArea.value.length;
-  count.innerHTML = `Restam ${500 - tamanhoTextArea} caracteres`;
-
+  textArea.addEventListener('input', () => {
+    tamanhoTextArea = textArea.value.length;
+    count.innerHTML = `Restam ${500 - tamanhoTextArea} caracteres`;
   });
 }
 contadorCaractere();
