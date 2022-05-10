@@ -28,22 +28,14 @@ header {
 main {
   display: flex;
   max-width: 100%;
-
-  /* padding-left: 2%; */
   justify-content: space-evenly;
 }
 
-form {
-  display: flex;
-}
-
 #evaluation-form {
+  display: flex;
   flex-direction: column;
   width: 675px;
-
-  /* align-content: space-between; */
-  justify-content: center;
-  padding-left: 5%;
+  justify-content: space-evenly;
 }
 
 #trybewarts-forms-logo {
@@ -53,27 +45,25 @@ form {
 
 .side-by-side {
   display: flex;
+  justify-content: space-between;
 }
 
-#container {
-  display: flex;
-  flex-wrap: wrap;
-  border: blue solid 2px;
-  max-width: 100%;
-  align-items: center;
-  width: 80%;
+.padding-inline {
+  padding-inline: 10%;
 }
 
 #label-family {
   display: flex;
   flex-direction: column;
-  width: 50%;
 }
 
 #label-content {
   display: flex;
   flex-direction: column;
-  width: 50%;
+}
+
+#label-house {
+  padding-right: 8%;
 }
 
 footer {
