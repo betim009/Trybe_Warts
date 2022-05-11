@@ -23,3 +23,38 @@ function contadorCaractere() {
   });
 }
 contadorCaractere();
+
+// function verificaLabelInfos (){
+//   const labelInfo = document.querySelector('#agreement');
+//   const btnEnviar = document.querySelector('#submit-btn');
+
+//   btnEnviar.disabled = true;
+  
+//   labelInfo.addEventListener('click',  () => {
+//     if (labelInfo.checked === true){
+//       btnEnviar.disabled = false;
+//     } else{
+//       btnEnviar.disabled = true;
+//     }
+//   })
+// }
+// verificaLabelInfos();
+// select.addEventListener('change', () => ( select.value === 'black' ) ? update('black','white') : update('white','black'));
+
+// function verificaLabelInfos (){
+//   const labelInfo = document.querySelector('#agreement');
+//   const btnEnviar = document.querySelector('#submit-btn');
+
+//   btnEnviar.disabled = true;
+  
+//   labelInfo.addEventListener('click',  () => labelInfo.checked === true ? btnEnviar.disabled = false :  btnEnviar.disabled = true)
+// }
+// verificaLabelInfos();
+
+function verificaLabelInfos (){
+  const labelInfo = document.querySelector('#agreement');
+  const btnEnviar = document.querySelector('#submit-btn');
+  const trueExpression = labelInfo.checked === true ? btnEnviar.disabled = false :  btnEnviar.disabled = true;
+  labelInfo.addEventListener('click', trueExpression())
+}
+verificaLabelInfos()
