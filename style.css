@@ -2,6 +2,7 @@
   border: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Times New Roman, Times, serif;
 }
 
 header {
@@ -29,6 +30,7 @@ main {
   display: flex;
   max-width: 100%;
   justify-content: space-evenly;
+  padding-top: 5%;
 }
 
 #evaluation-form {
@@ -36,7 +38,6 @@ main {
   flex-direction: column;
   width: 675px;
   justify-content: center;
-  border: 2px solid red;
 }
 
 #trybewarts-forms-logo {
@@ -85,14 +86,15 @@ footer {
   padding-bottom: 20px;
 }
 
-input:enabled {
-  background: gray;
+input:enabled , textarea:enabled {
+  background: rgb(40, 135, 117);
+  border-radius: 1px solid black;
 }
 
-input::placeholder {
+input::placeholder , textarea::placeholder {
   color: white;
 }
 
 input:disabled {
-  background: #dddddd;
+  background: whitesmoke;
 }
