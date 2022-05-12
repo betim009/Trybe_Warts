@@ -36,6 +36,6 @@ function desactiveSubmit() {
       submit.disabled = true;
     }
   });
-
 }
+
 desactiveSubmit();
