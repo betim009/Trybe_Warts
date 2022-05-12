@@ -32,5 +32,4 @@ function submitBtnDesactive() {
     if (submit.disabled === true) submit.disabled = false;
     else submit.disabled = true;
   });
-
 } submitBtnDesactive();
